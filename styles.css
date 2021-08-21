@@ -1,0 +1,28 @@
+@tailwind components;
+
+@layer components {
+  .option {
+    @apply cursor-pointer hover:bg-gray-100 transition duration-200 ease-out p-2 rounded-lg;
+  }
+  .info {
+    @apply py-5 text-xl font-semibold cursor-pointer hover:text-red-500;
+  }
+  .blog {
+    @apply text-base xl:text-xl font-semibold cursor-pointer hover:text-red-500;
+  }
+  .flip {
+    @apply border-0 mr-5 bg-transparent hover:rotate-180 hover:text-red-500;
+  }
+  .nav1 {
+    @apply transition transform duration-200 ease-out hover:text-red-500 hover:animate-pulse;
+  }
+  .nav2 {
+    @apply hidden lg:inline-flex mr-6 transition transform duration-200 ease-out hover:text-red-500 hover:animate-pulse;
+  }
+  .social {
+    @apply text-5xl cursor-pointer hover:text-red-500 transition transform duration-200 ease-out;
+  }
+  .share {
+    @apply h-12 mr-10 cursor-pointer hover:animate-spin hover:text-green-600;
+  }
+}
