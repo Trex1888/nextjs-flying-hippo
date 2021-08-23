@@ -8,7 +8,7 @@ import brick from "../images/brick.jpg";
 function Peek() {
   return (
     <div className="relative h-[300px] opacity-90">
-      <Image src={brick} layout="fill" objectFit="cover" />
+      <Image loading="lazy" src={brick} layout="fill" objectFit="cover" />
       <div className="absolute top-1/4 w-full text-center">
         <h1 className="text-xl sm:text-4xl text-white font-semibold">
           A PEEK INSIDE

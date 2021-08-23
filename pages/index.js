@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Info from "../components/Info";
 import Peek from "../components/Peek";
 import Slide from "../components/Slide";
 import Story from "../components/Story";
@@ -38,8 +37,8 @@ export default function Home() {
         <section className="pt-6 px-4">
           <div className="grid items-center md:border-r border-gray-300">
             <h1 className="text-5xl font-semibold pb-5 text-red-500">
-              STALKING <br />
-              ENCOURAGED
+              BROWSE OUR <br />
+              SOCIAL MEDIA
             </h1>
 
             <div className="flex items-center py-4 border-b border-gray-300">
@@ -120,17 +119,6 @@ export default function Home() {
               </h1>
             </div>
 
-            {/* <div className="flex items-center py-4 border-b border-gray-300">
-              <MailIcon className="h-12 mr-10" />
-              <h1 className="info">email@email.com</h1>
-            </div>
-
-            <div className="flex items-center py-4 border-b border-gray-300">
-              <LocationMarkerIcon className="h-12 mr-10" />
-              <h1 className="info">
-                55 E 2nd Street <br /> Anywhere, USA <br /> 55555
-              </h1>
-            </div> */}
             <button
               className="py-1 items-center text-red-500 bg-transparent border-red-500 border rounded-md 
              hover:text-black hover:border-black font-semibold mb-10 mr-8 mt-5"
