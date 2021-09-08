@@ -36,7 +36,7 @@ export default function Home() {
       >
         <section className="pt-6 px-4">
           <div className="grid items-center md:border-r border-gray-300">
-            <h1 className="text-5xl font-semibold pb-5 text-red-500">
+            <h1 className="text-5xl md:mx-auto font-semibold pb-5 text-red-500">
               BROWSE OUR <br />
               SOCIAL MEDIA
             </h1>
@@ -79,7 +79,7 @@ export default function Home() {
 
         <section className="pt-6 px-4">
           <div className="grid items-center md:border-r border-gray-300">
-            <h1 className="text-5xl font-semibold pb-5 text-red-500 mb-5">
+            <h1 className="text-5xl mx-auto font-semibold pb-5 text-red-500 mb-5">
               OUR BLOGS
             </h1>
 
@@ -130,13 +130,13 @@ export default function Home() {
 
         <section className="pt-5 px-4">
           <div className="grid items-center">
-            <div className="flex px-4">
+            <div className="flex px-2">
               <img
-                className="h-20 mr-10"
+                className="h-20 text-center lg:ml-6"
                 src="https://webstockreview.net/images/clipart-hippo-purple-4.png"
                 alt="img"
               />
-              <h1 className="text-5xl font-semibold pb-6 text-red-500">
+              <h1 className="text-5xl text-center font-semibold pb-6 text-red-500">
                 HIP AND NERDY
               </h1>
             </div>
