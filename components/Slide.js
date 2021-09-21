@@ -17,7 +17,7 @@ function Slide() {
         <div>
           <img
             loading="lazy"
-            src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.6435-9/219234690_386869352801322_4250261090152196600_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=0debeb&_nc_ohc=saeKsuDFBVwAX8WW1xF&_nc_ht=scontent-ort2-2.xx&oh=45bc15b1f3586a53a3e54198cb54b549&oe=61419D2B"
+            src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.6435-9/219234690_386869352801322_4250261090152196600_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=0debeb&_nc_ohc=Lel469LIZr0AX-Iq5bV&tn=XJ8TdXxQNzDkafBL&_nc_ht=scontent-ort2-2.xx&oh=40c28af7ea97f27a2fa49e442ec1e216&oe=616D1EAB"
             alt="img"
           />
         </div>
